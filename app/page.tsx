@@ -31,7 +31,8 @@ export default function Home() {
   }, [page]);
 
   return (
-    <div className="p-4 pt-12">
+    // <div className="p-4 pt-12">
+    <div className="min-h-screen bg-black text-white p-6">
       {/* <h1 className="text-3xl font-bold text-center mb-4 pt-8">Star Wars Characters</h1> */}
 
       <h1 className="text-3xl md:text-4xl font-bold text-center text-white-800 mb-6">
